@@ -85,7 +85,7 @@
         // Apply rotation.
         $('div').each(function(index, element) {
             //if (!$(element).hasClass('ancSiteWrp') && !$(element).hasClass('subCon') && !$(element).hasClass('mainContent')) {
-            if (!$(element).hasClass('ancSiteWrp')) {
+            if (!$(element).width() < 900) {
                 rotateMe(element);
             }
         });
