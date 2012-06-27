@@ -66,7 +66,7 @@
     //'use strict';
 
     function rotateMe(element) {
-        var milliSeconds = (Math.random() * 2000) + 3000;
+        var milliSeconds = (Math.random() * 2000) + 1000;
         var degY = (Math.random() * 10) - 5;
         var zPx = (Math.random() * 60) - 30;
 
